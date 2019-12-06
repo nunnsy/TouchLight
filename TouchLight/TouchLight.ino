@@ -14,7 +14,6 @@
 
 /*
    Modified by Daniel Nunns, 2019.
-   WIP.
 */
 
 
@@ -36,7 +35,7 @@ bool pressed = false;
 bool pressedBuffer = false;
 
 #define BRIGHTNESS_LEVELS 4
-uint8_t brightness[] = {0, 100, 200, 255};
+uint8_t brightness[] = {0, 50, 150, 255};
 uint8_t brightness_index = 0;
 
 void setup() {
